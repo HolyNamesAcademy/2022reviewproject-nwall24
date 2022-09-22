@@ -21,6 +21,14 @@ public class Student {
         this(name, height, gradeLevel, favoriteColor, null);
     }
 
+    public Student() {
+        name = "";
+        height = 0;
+        gradeLevel = 0;
+        favoriteColor="";
+        bankAccount = new BankAccount("", 0);
+    }
+
     // Getters
     public String GetName() { return name; }
     public int GetHeight() { return height; }

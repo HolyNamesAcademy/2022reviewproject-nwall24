@@ -80,7 +80,7 @@ public class BankAccount {
             System.out.println("Sorry, the amount withdrawn must be greater than 0.");
             return 0;
         }
-        else if(amount > accountBalance);
+        else if(amount > accountBalance)
         {
             System.out.println("Sorry, you cannot withdraw more than the account balance.");
             return 0;
@@ -137,9 +137,8 @@ public class BankAccount {
      */
     public String toString()
     {
-
+        return "Name: " + name + "\nAccount Balance: " + accountBalance;
         // write your code above and remove the line below
-        throw new UnsupportedOperationException();
     }
 
     /**
